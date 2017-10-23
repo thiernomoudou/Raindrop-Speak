@@ -1,8 +1,6 @@
 
 //function that convert a  number to a string,
 //the contents of which depends on the number’s prime factors.
-
-//function that converts a number into string
 function numberToString(number) {
  if (typeof number !== 'number') {
    return 'argument should be a number';
@@ -39,7 +37,7 @@ function isPrime(number) {
  }
 }
 
-//function that return factors of a number
+//function that returns primefactors of a number
 function primeFactor(number) {
  let primeFactors = [];
  if (typeof number !== 'number') {
